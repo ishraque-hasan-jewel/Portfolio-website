@@ -1,0 +1,93 @@
+
+
+
+
+
+/* .App {
+  font-family: sans-serif;
+  background: #1c1d1f;
+  color: white;
+  height: 100vh;
+  box-sizing: border-box;
+} */
+
+.react-tabs {
+  display: flex;
+  margin-left: 36px;
+  margin-top: 36px;
+  border-right: 6px solid green;
+  width: 220px;
+  height: 600px;
+  /* border: 1px solid #3c3e43; */
+  color: white;
+  background: #1c1d1f;
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  flex-direction: column;
+  
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #3c3e43;
+}
+
+.react-tabs__tab {
+  height: 70px;
+  list-style: none;
+  padding: 12px 6px;
+   cursor: pointer; 
+  color: #bbb;
+}
+
+.react-tabs__tab--selected {
+  background: #1c1d1f;
+  border-color: #1c1d1f;
+  border-left: 4px solid #6eb800;
+  color: white;
+}
+
+.react-tabs__tab-panel {
+  margin-left: 36px;
+  margin-top: 15px;
+  display: none;
+  width: 800px;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.react-tabs__tab {
+  padding-left: 24px;
+}
+
+.react-tabs__tab--selected {
+  padding-left: 21px;
+}
+
+.panel-content {
+  /* text-align: center; */
+  
+  width: 800px;
+} 
+li{
+  font-size: 20px;
+  color: rgb(242, 38, 38);
+  
+} 
+.yers-btn{
+  border-radius: 50%;
+  margin-left: 500px;
+  color: rgb(243, 197, 15);
+  background-color: rgba(218, 10, 21, 0.83);
+   
+
+}
+/* .ProgressBar{
+  width:1000%;
+
+} */
+

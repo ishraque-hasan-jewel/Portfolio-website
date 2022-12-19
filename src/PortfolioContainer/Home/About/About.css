@@ -1,0 +1,81 @@
+.jewel{
+    margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  padding: 10px; 
+}
+.test1{
+    margin: 0 0.5em;
+    height: 17.8%;
+    width: 100%;
+    /* overflow: hidden;
+    display: flex; */
+    text-align: center;
+    justify-content: center;
+}
+.test2{
+  margin: 0 0.5em;
+  height: 17.8%;
+  width: 100%;
+   overflow: hidden;
+  display: flex;
+  
+  justify-content: center;
+}
+hr {
+  border: 10px solid rgb(128, 0, 36);
+  border-radius: 5px;
+  width: 250px;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.profile-options{
+  margin: 0 0 0 28px;
+
+}
+.profile-options .highlighted-btn {
+  margin: 0 0 0 28px;
+  
+}
+.profile-options .highlighted-btn:hover {
+  margin: 0 0 0 28px;
+  background-color: cornsilk;
+  color: #111;
+}
+@media screen and (max-width: 1110px){
+  .profile-options .btn{
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+
+}
+}
+@media screen and (max-width: 810px){
+  .profile-options{
+    display: flex;
+    justify-self: space-between;
+}
+.profile-details {
+    margin: 25px 0 0 ;
+}
+.profile-options .highlighted-btn{
+    margin: 0 !important;
+}
+.profile-options, .profile-details-role {
+    text-align: center;
+}
+}
+    

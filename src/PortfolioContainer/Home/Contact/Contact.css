@@ -1,0 +1,68 @@
+.jewel{
+    margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 5px;
+  color:#FFF;
+  background-color: #181717;
+  padding: 10px; 
+}
+.test1{
+    margin: 0 0.5em;
+    height: 17.8%;
+    width: 100%;
+    /* overflow: hidden;
+    display: flex; */
+    text-align: center;
+    justify-content: center;
+}
+.test2{
+  margin: 0 0.5em;
+  height: 17.8%;
+  width: 100%;
+   overflow: hidden;
+  display: flex;
+  
+  justify-content: center;
+}
+.jewel-contact{
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 5px;
+  color:#000;
+  background-color: #FFF;
+  padding: 10px; 
+
+}
+.colz .colz-icon i{
+  color: white;
+  padding: 50px;
+  padding-left: 0px;
+  margin: 20px;
+}
+.coz .coz-icon i:hover{
+  transform: scale(1.5);
+}
+
+.text{
+  padding: 5px;
+  margin: 20px;
+  font-size: 20px;
+}
+.colz-a{
+  padding: 5px;
+  margin: 10px;
+  color:#fff;
+
+}
+.gmail{
+  padding: 5px;
+  margin: 10px;
+
+}
+.input-label{
+  padding: 20px;
+  margin: 10px;
+
+}
